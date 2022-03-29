@@ -5,9 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AwesomeBooks</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+          <h1>Awesome Books</h1>
+          <nav>
+            <ul class="navigation">
+              <li id="list"><a>List</a></li>
+              <li id="add-new"><a>Add new book</a></li>
+              <li id="contact-info"><a>Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div>
+          <p class="date"></p>
+        </div>
+      
+        <section class="booklist">
+          <h2>All Awesome Books</h2>
+          <div class="books">
+      
+          </div>
+        </section>
+      
+        <form class="addbooks hide-content">
+          <h2>Add a new book</h2>
+          <input type="text" class="title" placeholder="Title">
+          <input type="text" class="author" placeholder="Author">
+          <button type="button" class="add">Add</button>
+        </form>
+        <section class="contact hide-content">
+          <div class="contact-info">
+            <h3 class="contact-title">Contact Information</h3>
+            <p>
+              Do you have any questions or you just want to say "Hello"?
+              You can reach out to us!
+            </p>
+            <ul>
+              <li class="info">Our e-mail:wuse2@gmail.com</li>
+              <li class="info">Our phone number: 012345678912</li>
+              <li class="info">Our address: Abuja city, wuse rd, Abuja</li>
+            </ul>
+          </div>
+        </section>
+        <footer>
+          <h3>Copyright 2022</h3>
+        </footer>
+      </div>
+      <script type="module" src="index.js"></script>
 </body>
 </html>
 
